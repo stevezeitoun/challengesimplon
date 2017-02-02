@@ -8,6 +8,32 @@ body {
   margin: 0;
 }
 
+.title{
+  position: absolute;
+  z-index: 15;
+  left: 66px;
+  top: -7px;
+  font-size: 45px;
+  line-height: 39px;
+  font-weight: 500;
+  text-decoration: none;
+ flex-shrink: 0;
+ overflow: hidden;
+ font-family: 'Baloo Da', cursive;
+ text-shadow: 4px 4px #DCDCDC;
+ }
+
+
+a,a:hover  {
+  text-decoration: none;
+}
+
+
+ .user {
+   color: #168699;
+ }
+
+
 a,a:hover  {
   text-decoration: none;
 }
@@ -16,8 +42,9 @@ a,a:hover  {
 
 
 .ban {
-   background-color: #C6C7BA;
+   background-image: url("http://www.planwallpaper.com/static/images/Alien_Ink_2560X1600_Abstract_Background_1.jpg");
   height:  720px;
+  position: relative;
 }
 .menu {
   height:70px;
@@ -102,49 +129,50 @@ button {
 }
 
 
-.contenue1 {
-  height: 220px;
-  width: 220px;
-  background-color: #168699;
-  margin-left: 9%;
-  border-radius: 50%;
-  margin-top: -25%;
-  box-shadow: 2px 2px 5px 0px #333333;
-  color: #FFFFFF;
-}
-.contenue2 {
-  height: 220px;
-  width: 220px;
-  background-color: #333B42;
-  margin-left: 35%;
-  margin-top: -15%;
-  border-radius: 50%;
-  opacity: 0.9;
-  box-shadow: 2px 2px 5px 0px #333333;
-  color: #FFFFFF;
-}
-.contenue3 {
-  height: 230px;
-  width: 230px;
-  background-color: #333B42;
-  margin-left: 20%;
-  border-radius: 50%;
-  box-shadow: 2px 2px 5px 0px #333333;
-  color: #FFFFFF;
-}
 
 
 .contenue h1 {
-  padding-top: 7%;
-  text-align: center;
-  font-size: 45px;
+  font-size: 65px;
+  margin-top: -25%;
+  margin-left: 5%;
+  position: relative;
 }
 
 .contenue p {
-  padding: 9%;
-  text-align: center;
+  margin-top: 5%;
+  margin-left: 5%;
+  font-size: 30px;
+  height: 100px;
+  width: 800px;
+  padding-right: 4%;
 }
 
+.icons p {
+  font-size: 8px;
+  position: absolute;
+  z-index: 14;
+  margin-left: 23%;
+  margin-top: 15%;
+}
+
+p  .fa-share{
+  font-size: 32px;
+  animation: lumiere 8s infinite;
+}
+
+.img_ics {
+  margin-top: 8%;
+  margin-left: 3%;
+}
+
+
+
+.img_ics img {
+  margin-left: 3%;
+  border: solid 3px #168699;
+  border-radius: 50%;
+  opacity: 0.9;
+}
 .flexbox img {
     border-radius: 2%;
 }
@@ -159,7 +187,20 @@ button {
 }
 
 
-
+@keyframes lumiere {
+  0% {
+    color: black;
+  } 
+  30% {
+    color: red;
+  }
+  60% {
+    color: black;
+  }
+  90% {
+    color: red;
+  }
+}
 
 
 
@@ -174,9 +215,12 @@ button {
 
 /* CONTENUE */ 
 
+
 .contenu1{
   display: flex;
   flex-direction: row;
+  height: 700px;
+  padding-top: 100px;
 }
 
 
@@ -184,20 +228,21 @@ button {
 .leftside{
   text-align: left;
   margin-left: 100px;
+  margin-top: 60px;
 
 }
 
 .rightside{
   margin-right: 125px;
-  margin-top: 22px;
+  margin-top: 82px;
 }
 
 h2{
   font-weight: bold;
-font-size: 44px;
-line-height: 0.9em;
-margin-bottom: -20px;
-margin-left: 50px;
+  font-size: 44px;
+  line-height: 0.9em;
+  margin-bottom: -20px;
+  margin-left: 50px;
 }
 
 .para{
@@ -218,6 +263,8 @@ ul {
  font-size: 70px;
  line-height: 0.9em;
  margin-bottom: -20px;
+ margin-top: -15%;
+ margin-left: 14%;
 }
 
 .member{
@@ -234,6 +281,7 @@ ul {
 }
 
 .contenu2{
+  color: white;
   background-color: #168699;
   height: 340px;
   width: 100%;
@@ -273,10 +321,12 @@ padding-bottom: 25px;
 }
 
 .share2{
-
+  position: relative;
+  left: 53px
 
 }
 
 .share3{
-
+  position: relative;
+  left: 136px;
 }
