@@ -3,6 +3,176 @@
 
 */
 
+body {
+  padding: 0;
+  margin: 0;
+}
+
+a,a:hover  {
+  text-decoration: none;
+}
+
+/* MENU */
+
+
+.ban {
+   background-color: #C6C7BA;
+  height:  720px;
+}
+.menu {
+  height:70px;
+  width: auto;
+  background-color: #FFFFFF;
+  opacity: 0.9;
+  border-bottom: 6px solid  #168699;
+}
+
+.menu .a {
+  color: #333333;
+  float: right;
+  margin-left: 2%;
+  margin-right: 5%;
+  margin-top: 2%;
+  border-bottom: 4px solid #FFFFFF;
+}
+
+.a:hover {
+  padding-bottom: 7px;
+   border-bottom: 4px solid #168699;
+   transition: border-bottom 1s;
+}
+
+button {
+  margin-top: -8px;
+}
+
+.btn-info:hover {
+  
+}
+
+.btn-default {
+  
+}
+
+.container-fluid {
+  height: 350px;
+  width: 350px;
+}
+
+.inner {
+  height: 650px;
+  width: 680px;
+
+}
+
+
+
+.flexbox {
+    display: inline-flex;
+    flex-direction: row;
+    margin-top: 2%;
+    margin-left: 120%;
+}
+
+.items1 {
+   display: flex;
+   position: absolute;
+   z-index: 11;
+   margin-left: 2%;
+   margin-top: 2%;
+   border-radius: 1%;
+   box-shadow: 2px 2px 5px 0px #333333;
+}
+
+
+.items1:hover {
+  animation: animation 3s;
+}
+
+
+
+.items3 {
+  display: flex;
+  z-index: 13;
+  position: absolute;
+   margin-left: 4%;
+   margin-top: 4%;
+   border-radius: 4%;
+   box-shadow:  0px 3px 4px 0px #333333;
+}
+
+
+.contenue1 {
+  height: 220px;
+  width: 220px;
+  background-color: #168699;
+  margin-left: 9%;
+  border-radius: 50%;
+  margin-top: -25%;
+  box-shadow: 2px 2px 5px 0px #333333;
+  color: #FFFFFF;
+}
+.contenue2 {
+  height: 220px;
+  width: 220px;
+  background-color: #333B42;
+  margin-left: 35%;
+  margin-top: -15%;
+  border-radius: 50%;
+  opacity: 0.9;
+  box-shadow: 2px 2px 5px 0px #333333;
+  color: #FFFFFF;
+}
+.contenue3 {
+  height: 230px;
+  width: 230px;
+  background-color: #333B42;
+  margin-left: 20%;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px 0px #333333;
+  color: #FFFFFF;
+}
+
+
+.contenue h1 {
+  padding-top: 7%;
+  text-align: center;
+  font-size: 45px;
+}
+
+.contenue p {
+  padding: 9%;
+  text-align: center;
+}
+
+.flexbox img {
+    border-radius: 2%;
+}
+
+@keyframes animation {
+  0% {
+    margin-left: 1%
+  }
+  100% {
+    margin-left: -12%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CONTENUE */ 
 
 .contenu1{
   display: flex;
@@ -64,7 +234,7 @@ ul {
 }
 
 .contenu2{
-  background-color: #368F8B;
+  background-color: #168699;
   height: 340px;
   width: 100%;
   padding-right: 16px;
@@ -89,7 +259,7 @@ ul {
  padding-left: 85px;
 }
 
-.fa{
+.fa-share, .fa-user, .fa-hand-o-up {
   font-size: 70px;
   font-size: 70px;
 display: flex;
